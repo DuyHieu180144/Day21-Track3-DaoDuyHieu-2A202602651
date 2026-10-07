@@ -15,8 +15,10 @@ adapters/*/
 !adapters/.gitkeep
 data/split/
 data/CUSTOM_DATASET.md
-results/*.json
-results/*.csv
+# results/*.json
+# results/*.csv
+!results/*.json
+!results/*.csv
 !results/.gitkeep
 gguf/
 *.gguf
